@@ -185,7 +185,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2022/10/29', function(event) {
+        $('#clock').countdown('2023/05/13', function(event) {
             var $this = $(this).html(event.strftime('' +
                 '<div class="box"><div class="date">%D</div> <span>Days</span> </div>' +
                 '<div class="box"><div class="date">%H</div> <span>Hours</span> </div>' +
