@@ -408,7 +408,9 @@ slider-area
 .slider-3 {
     background: url(https://i.ibb.co/r7LNDKP/My-New-Project-02-min.jpg) no-repeat center center / cover;
 }
-
+.slider-4 {
+    background: url(https://i.ibb.co/x3YVnNX/My-New-Project-03-min.jpg) no-repeat center center / cover;
+}
 
 .swiper-container {
     height:100vh;
