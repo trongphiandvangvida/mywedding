@@ -378,7 +378,7 @@ slider-area
 }
 
 .single-slider {
-    background: url("https://i.ibb.co/9rzmt5x/My-New-Project-01-min.jpg") no-repeat center center / cover;
+    background: url(https://i.ibb.co/9rzmt5x/My-New-Project-01-min.jpg) no-repeat center center / cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -402,11 +402,11 @@ slider-area
 }
 
 .slider-2 {
-    background: url(https://ibb.co/vwrR0C5) no-repeat center center / cover;
+    background: url(https://i.ibb.co/2k0Cdx4/My-New-Project-12-min.jpg) no-repeat center center / cover;
 }
 
 .slider-3 {
-    background: url(https://ibb.co/1mhY6WC) no-repeat center center / cover;
+    background: url(https://i.ibb.co/r7LNDKP/My-New-Project-02-min.jpg) no-repeat center center / cover;
 }
 
 
@@ -415,7 +415,7 @@ slider-area
 }
 
 .slider-content {
-    background: url(https://ibb.co/Tr1zQsY) no-repeat center center / cover;
+    background: url(https://i.ibb.co/x3YVnNX/My-New-Project-03-min.jpg) no-repeat center center / cover;
     width: 570px;
     height: 500px;
     margin: auto;
