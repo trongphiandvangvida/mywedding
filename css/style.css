@@ -1575,10 +1575,11 @@ Gift-area
 footer-area
 ===============================*/
 .footer-area {
-    background: url(../img/footer/1.jpeg) no-repeat center center / cover;
+    background: url('https://i.ibb.co/0fx5BFm/VINH9716-min.jpg') no-repeat center center / cover;
     padding: 100px 0;
     position: relative;
     z-index: 1;
+    opacity: 0.5;
 }
 
 .footer-area:before {
