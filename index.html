@@ -34,11 +34,11 @@
             <p class="browserupgrade">Trình duyệt của bạn đã cũ, vui lòng sử dụng trình duyệt Chrome để có trải nghiệm tốt nhất.</p>
         <![endif]-->
     <!-- preloader area start -->
-    <div class="preloader">
+    <!-- <div class="preloader">
        <div class="hart-wrap">
             <div class="heart"></div>
        </div>
-    </div>
+    </div> -->
     <!-- prealoader area end -->
     <!-- header-area start -->
     <header class="sticky-header">
@@ -145,14 +145,14 @@
                         <div class="couple-img">
                             <!-- <img src="img/couple/5.png" alt=""> -->
                             <!-- <img src="https://i.ibb.co/ryXQ702/VINH9814-min.jpg" alt="VINH9814-min" border="0"> -->
-                            <img id="couple-img-thuhien" alt="placeholder" width="100%" height="100%">
+                            <img id="couple_img_thuhien" alt="Phạm Thị Thu Hiền" width="100%" height="100%">
                             <script>
-                                var img = new Image();
-                                img.onload = function() {
-                                    var myImage = document.getElementById("couple-img-thuhien");
-                                    myImage.src = img.src;
+                                var couple_img_thuhien = new Image();
+                                couple_img_thuhien.onload = function() {
+                                    var image_thuhien = document.getElementById("couple_img_thuhien");
+                                    image_thuhien.src = couple_img_thuhien.src;
                                 }
-                                img.src = "https://i.ibb.co/ryXQ702/VINH9814-min.jpg";
+                                couple_img_thuhien.src = "https://i.ibb.co/ryXQ702/VINH9814-min.jpg";
                             </script>
                         </div>
                         <div class="couple-content  mt--30">
@@ -174,16 +174,20 @@
                     </div>
                     <div class="col-lg-5 col-md-12 col-sm-12 couple-single md-0">
                         <div class="couple-img">
-                            <img id="couple-img-tientu" alt="placeholder" width="100%" height="100%">
+                            <img id="couple_img_tientu" alt="Nguyễn Tiến Tú" width="100%" height="100%">
                             <!-- <img src="https://i.ibb.co/pJGD5LR/VINH9860-min.jpg" alt="VINH9860-min" border="0"> -->
+                            <script>
+                                var couple_img_tientu = new Image();
+                                couple_img_tientu.onload = function() {
+                                    var myImage = document.getElementById("couple_img_tientu");
+                                    myImage.src = couple_img_tientu.src;
+                                }
+                                couple_img_tientu.src = "https://i.ibb.co/pJGD5LR/VINH9860-min.jpg";
+                            </script>
 
                         </div>
                         <div class="couple-content mt--30">
                             <h4>Nguyễn Tiến Tú</h4>
-                            <!-- <p>Anh bạn thân ít nói, thích hành động của mình đây rồi!<br>
-                                Thích nơi yên tĩnh nhưng không thích một mình.<br>
-                                Khả năng đặc biệt là tích trữ nhiều năng lượng tích cực.
-                            </p> -->
                         </div>
                         <div class="social-icon">
                             <ul class="d-flex">
@@ -214,7 +218,15 @@
                         <div class="col-lg-5">
                             <div class="ceromony-img">
                                 <!-- <img src="https://i.ibb.co/D7b0mpW/6090-min.jpg" alt="6090-min" border="0"> -->
-                                <img id="ceromony-img1" alt="placeholder" width="100%" height="100%">
+                                <img id="ceromony_img1" alt="placeholder" width="100%" height="100%" style="border: 1px;">
+                                <script>
+                                    var ceromony_img1 = new Image();
+                                    ceromony_img1.onload = function() {
+                                        var myImage = document.getElementById("ceromony_img1");
+                                        myImage.src = ceromony_img1.src;
+                                    }
+                                    ceromony_img1.src = "https://i.ibb.co/D7b0mpW/6090-min.jpg";
+                                </script>
                             </div>
                         </div>
                         <div class="col-lg-7">
