@@ -218,7 +218,7 @@
                         <div class="col-lg-5">
                             <div class="ceromony-img">
                                 <!-- <img src="https://i.ibb.co/D7b0mpW/6090-min.jpg" alt="6090-min" border="0"> -->
-                                <img id="ceromony_img1" alt="placeholder" width="100%" height="100%" style="border: 1px;">
+                                <img id="ceromony_img1" alt="Lễ Vu Quy" width="100%" height="100%">
                                 <script>
                                     var ceromony_img1 = new Image();
                                     ceromony_img1.onload = function() {
@@ -279,6 +279,15 @@
                     <div class="col-lg-5">
                         <div class="ceromony-img">
                             <!-- <img src="https://i.ibb.co/YPBhHz4/9060-min.jpg" alt="9060-min" border="0"> -->
+                            <img id="ceromony_img2" alt="Lễ Vu Quy" width="100%" height="100%" style="border-color: red;">
+                            <script>ceromony_img2
+                                var ceromony_img2 = new Image();
+                                ceromony_img2.onload = function() {
+                                    var myImage = document.getElementById("ceromony_img2");
+                                    myImage.src = ceromony_img2.src;
+                                }
+                                ceromony_img2.src = "https://i.ibb.co/YPBhHz4/9060-min.jpg";
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -287,7 +296,7 @@
     </div>
     <!-- service-area end -->
     <!-- gallery area start -->
-    <div id="gallery" class="gallery-area pt--100 pb--70">
+    <div id="gallery" class="gallery-area pt--100 pb--70" style="padding-bottom: 10px;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -309,6 +318,15 @@
                     <div class="gallery-single">
                         <a href="https://i.ibb.co/d5VF4WN/VINH9984-min.jpg" class="expand-img">
                             <!-- <img src="https://i.ibb.co/d5VF4WN/VINH9984-min.jpg" alt="VINH9984-min" border="0"> -->
+                            <img id="enagagement01" alt="enagagement01" width="100%" height="100%" style="border-color: red;">
+                            <script>
+                                var enagagement01 = new Image();
+                                enagagement01.onload = function() {
+                                    var myImage = document.getElementById("enagagement01");
+                                    myImage.src = enagagement01.src;
+                                }
+                                enagagement01.src = "https://i.ibb.co/d5VF4WN/VINH9984-min.jpg";
+                            </script>
                         </a>
                     </div>
                 </div>
@@ -316,6 +334,15 @@
                     <div class="gallery-single">
                         <a href="https://i.ibb.co/r6MXfgD/VINH9930-min.jpg" class="expand-img">
                             <!-- <img src="https://i.ibb.co/r6MXfgD/VINH9930-min.jpg" alt="VINH9930-min" border="0"> -->
+                            <img id="enagagement02" alt="enagagement02" onload="">
+                            <!-- <script>
+                                var enagagement02 = new Image();
+                                enagagement02.onload = function() {
+                                    var myImage = document.getElementById("enagagement02");
+                                    myImage.src = enagagement02.src;
+                                }
+                                enagagement02.src = "https://i.ibb.co/r6MXfgD/VINH9930-min.jpg";
+                            </script> -->
                         </a>
                     </div>
                 </div>
@@ -323,6 +350,15 @@
                     <div class="gallery-single">
                         <a href="https://i.ibb.co/PMj0yTB/VINH9793-min.jpg" class="expand-img">
                             <!-- <img src="https://i.ibb.co/PMj0yTB/VINH9793-min.jpg" alt="VINH9793-min" border="0"> -->
+                            <img id="enagagement03" alt="enagagement03">
+                            <script>
+                                var enagagement03 = new Image();
+                                enagagement03.onload = function() {
+                                    var myImage = document.getElementById("enagagement03");
+                                    myImage.src = enagagement03.src;
+                                }
+                                enagagement03.src = "https://i.ibb.co/PMj0yTB/VINH9793-min.jpg";
+                            </script>
                         </a>
                     </div>
                 </div>
@@ -330,6 +366,16 @@
                     <div class="gallery-single">
                         <a href="https://i.ibb.co/5BMqQZB/VINH0087-min.jpg" class="expand-img">
                             <!-- <img src="https://i.ibb.co/5BMqQZB/VINH0087-min.jpg" alt="VINH0087-min" border="0"> -->
+                            <img id="enagagement04" alt="enagagement04">
+                            <!-- <script>
+                                var enagagement04 = new Image();
+                                enagagement04.onload = function() {
+                                    var myImage = document.getElementById("enagagement04");
+                                    myImage.src = enagagement04.src;
+                                }
+                                enagagement04.src = "https://i.ibb.co/5BMqQZB/VINH0087-min.jpg";
+                                enagagement04.border = 0
+                            </script> -->
                         </a>
                     </div>
                 </div>
@@ -621,6 +667,16 @@
     <!-- main.js -->
     <script src="js/main.js"></script>
     <script src="js/slide.js"></script>
+    <script src="js/load_image.js"></script>
+    <script>
+        function load_image(id, src){
+                var myImage = document.getElementById(id);
+                myImage.src = src;
+
+                
+            }
+    </script>
+    
 </body>
 
 </html>
