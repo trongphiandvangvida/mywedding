@@ -273,7 +273,7 @@
                 </div>
                 <div class="col-12">
                     <div class="gallery-menu text-center">
-                       <button class="active" data-filter="*">Tất cả</button>
+                       <button class="active" data-filter="*" id="all_image">Tất cả</button>
                        <button data-filter=".Pre-Wedding">Ảnh đính hôn</button>
                        <button data-filter=".Enagagement">Ảnh cưới</button>
                        <button data-filter=".Parties">Ảnh chúng mình</button>
@@ -644,6 +644,11 @@
         URL.revokeObjectURL(objectURL);
         // Set padding for the loaded image.
         img.style.padding = '10px';
+        img.style.border ="0";
+        img.style.display ="block";
+        var all_image = document.getElementById("all_image");
+        all_image.click();
+
     };
 
     img.src = objectURL;
